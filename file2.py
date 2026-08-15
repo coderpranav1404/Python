@@ -15,7 +15,7 @@ else:
 
 #2nd example 
 age=int(input("Enter your age:"))
-
+""
 if(age >= 18):
     a="You are eligible to vote"
 
