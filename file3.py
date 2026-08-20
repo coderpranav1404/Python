@@ -20,5 +20,18 @@ print(num) #It arrange it in descending order.
 num.insert(0,7) #Insert helps to add another no. in any place means here 7 will be added on 0 position
 print(num)
 
+#tuple is immutable
+num=(1,4,6)
+#all work same as string
 
+#question by pranita converting strings to listsa
+a=input("first movie")
+b=input("second movie")
+
+c=[a,b]
+print(c)
+c.insert(0,3)
+print(c)
+print(c[2])
+print(c[1:2])
 
