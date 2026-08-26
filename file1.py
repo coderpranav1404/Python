@@ -4,7 +4,7 @@ c=a+b*b#first multiply hote
 print(c)
 
 a=float(input("What is your no.")) #In output put the no.to proceed further
-str1 = "Pranita in  IITB" 
+str1 = "Web development helps to develop mind." 
 
 print(str1[4])
 print(str1)
