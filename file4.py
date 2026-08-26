@@ -22,3 +22,9 @@ dict["Entrance"]["Jee"]=99
 print(dict)
 
 
+#Sets
+num={2,3,2} #Repeated value is taken only once in output
+print(len(num))
+num.add(5)
+num.remove(3)
+print(num)
