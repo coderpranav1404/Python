@@ -33,5 +33,3 @@ print(c)
 c.insert(0,3)
 print(c)
 print(c[2])
-print(c[1:2])
-
