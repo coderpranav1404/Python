@@ -49,4 +49,53 @@ while i<len(info):
     
 
 
+    #For loop
+    str="Pranita"
+    for char in str:
+     
+      print(char)
+      if(char=='a'):
+         print("I got a")
+else:
+         print("no")
+
+         
+         num=[4,6,8,6]
+         X=6
+         indx=0
+         
+         for el in  num:
+            print(el)
+            if(el==X):
+                print("I got",indx)
+
+
+                indx+=1
+         
     
+
+    #Range
+
+
+
+for el in range(10):
+        print(el)
+
+for el in range(2,18,4):  #range(start,stop,step)
+       print(el)
+
+
+#Multiplication of n
+n=int(input("Enter a number:"))
+for el in range(n,11*n, n):
+
+    print(el)
+    #OR
+#Methode 2
+
+n=int(input("Enter a number:"))
+
+for i in range(1,11):
+    print(n*i)
+
+ 
